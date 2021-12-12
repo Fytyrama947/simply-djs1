@@ -5,8 +5,8 @@ const { MessageButton } = require('discord-buttons');
 const giveaways = require('../giveaways');
 const utils = require('../../../functions/utils');
 const defaultButtonRolesMessages = {
-	addMessage: 'I have added the {role} role to you!',
-	removeMessage: 'I have removed the {role} role from you!',
+	addMessage: 'Я добавил вам роль {role} !',
+	removeMessage: 'Я снял с вас роль {role} !',
 };
 const defaultGiveawayMessages = {
 	dmWinner: true,
