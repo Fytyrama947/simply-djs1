@@ -4,8 +4,8 @@ const { MessageEmbed, Message, Client } = require('discord.js');
 const utils = require('../../functions/utils');
 const merge = require('deepmerge');
 const defaultManagerOptions = {
-	addMessage: 'I have added the <@&{role}> role to you!',
-	removeMessage: 'I have removed the <@&{role}> role from you!',
+	addMessage: 'Я добавил вам роль <@&{role}>!',
+	removeMessage: 'Я снял с вас роль <@&{role}> !',
 };
 class ButtonRoles {
 
